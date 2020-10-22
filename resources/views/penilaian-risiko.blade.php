@@ -107,66 +107,353 @@
     </tr>
     <tr>
         <td class="border-2"></td>
-        <td class="border-2">Anggaran</td>
+        <td class="border-2 font-bold">Anggaran</td>
         <td class="border-2"></td>
         <td class="border-2"></td>
         <td class="border-2"></td>
     </tr>
     <tr>
+        <td class="border-2">1</td>
+        <td class="border-2">Anggaran tidak terserap maksimal</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">2</td>
+        <td class="border-2">Kegiatan yang dianggarkan tidak terealisasi</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">3</td>
+        <td class="border-2">Pencadangan dana kegiatan terlalu besar</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">4</td>
+        <td class="border-2">Penyusunan anggaran tidak berbasis output</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+    </tr>
+    <tr>
+        <td class="border-2">5</td>
+        <td class="border-2">Kesalahan dalam menentukan pagu anggaran</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+        <td class="border-2">9</td>
+    </tr>
+    <tr>
+        <td class="border-2">6</td>
+        <td class="border-2">Kesalahan dalam penyusunan mata anggaran</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">7</td>
+        <td class="border-2">Penyusunan alokasi anggaran melebihi SBM</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">8</td>
+        <td class="border-2">Penggunaan anggaran tidak sesuai peruntukan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">9</td>
+        <td class="border-2">Perencanaan anggaran kurang memadai</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+    </tr>
+    <tr>
+        <td class="border-2">10</td>
+        <td class="border-2">Alokasi anggaran tidak sesuai target kinerja</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
         <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2 font-bold">Spending Review SPI</td>
         <td class="border-2"></td>
         <td class="border-2"></td>
         <td class="border-2"></td>
     </tr>
     <tr>
+        <td class="border-2">1</td>
+        <td class="border-2">Kesalahan verifikasi</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">2</td>
+        <td class="border-2">Aset tidak tercatat pada SIM Aset</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">3</td>
+        <td class="border-2">Persediaan tidak tercatat pada SIM Persediaan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">5</td>
+        <td class="border-2">10</td>
+    </tr>
+    <tr>
+        <td class="border-2">4</td>
+        <td class="border-2">Kesalahan pencatatan pada laporan keuangan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">5</td>
+        <td class="border-2">Stock Opname tidak dilakukan secara periodik</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+        <td class="border-2">9</td>
+    </tr>
+    <tr>
+        <td class="border-2">6</td>
+        <td class="border-2">Inventarisasi aset tidak dilakukan secara periodik</td>
+        <td class="border-2">3</td>
+        <td class="border-2">4</td>
+        <td class="border-2">12</td>
+    </tr>
+    <tr>
+        <td class="border-2">7</td>
+        <td class="border-2">Laporan keuangan tidak sesuai SAK</td>
+        <td class="border-2">1</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+    </tr>
+    <tr>
+        <td class="border-2">8</td>
+        <td class="border-2">Laporan keuangan tidak sesuai SAP</td>
+        <td class="border-2">1</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+    </tr>
+    <tr>
+        <td class="border-2">9</td>
+        <td class="border-2">Laporan keuangan tidak disusun dan dilaporkan secara tepat </td>
+        <td class="border-2">1</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+    </tr>
+    <tr>
+        <td class="border-2">10</td>
+        <td class="border-2">Kurang memahami dan mengetahui peraturan-peraturan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
         <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2 font-bold">Perbendaharaan</td>
         <td class="border-2"></td>
         <td class="border-2"></td>
         <td class="border-2"></td>
     </tr>
     <tr>
+        <td class="border-2">1</td>
+        <td class="border-2">Pendapatan/Penerimaan tidak tercatat pada SIM Keuangan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+    </tr>
+    <tr>
+        <td class="border-2">2</td>
+        <td class="border-2">Penggunaan langsung pendapatan tidak terdeteksi oleh kantor manajemen</td>
+        <td class="border-2">2</td>
+        <td class="border-2">5</td>
+        <td class="border-2">10</td>
+    </tr>
+    <tr>
+        <td class="border-2">3</td>
+        <td class="border-2">Tidak dilakukan rekonsiliasi pendapatan dengan unit kerja</td>
+        <td class="border-2">2</td>
+        <td class="border-2">5</td>
+        <td class="border-2">10</td>
+    </tr>
+    <tr>
+        <td class="border-2">4</td>
+        <td class="border-2">Tidak dilakukan verifikasi pendapatan/ penerimaan unit kerja dengan kesesuian SBM</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">5</td>
+        <td class="border-2">Tidak dilakukan rekonsiliasi bank secara periodik</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">6</td>
+        <td class="border-2">Tidak dilakukan cash opname secara periodik</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">7</td>
+        <td class="border-2">Kelebihan/kekurangan pembayaran</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">8</td>
+        <td class="border-2">Waktu pencairan dana/pembayaran terlambat</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">9</td>
+        <td class="border-2">Kesalahan penghitungan pajak</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+    </tr>
+    <tr>
+        <td class="border-2">10</td>
+        <td class="border-2">Keterlambatan pembayaran pajak</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+    </tr>
+    <tr>
         <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2 font-bold">Kepatuhan</td>
         <td class="border-2"></td>
         <td class="border-2"></td>
         <td class="border-2"></td>
     </tr>
     <tr>
+        <td class="border-2">1</td>
+        <td class="border-2">LHKSN</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+        <td class="border-2">9</td>
+    </tr>
+    <tr>
+        <td class="border-2">2</td>
+        <td class="border-2">LHKASN</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+        <td class="border-2">9</td>
+    </tr>
+    <tr>
+        <td class="border-2">3</td>
+        <td class="border-2">Opini BPK</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">4</td>
+        <td class="border-2">BKD</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">5</td>
+        <td class="border-2">Kontrak Kinerja</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
+        <td class="border-2">6</td>
+        <td class="border-2">Pelaksanaan Tri Dharma (WFH/Lock Down)</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+    </tr>
+    <tr>
         <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2 font-bold">Tingkat Penyalahgunaan Wewenang FEB Menuju WBK/WBB</td>
         <td class="border-2"></td>
         <td class="border-2"></td>
         <td class="border-2"></td>
     </tr>
     <tr>
+        <td class="border-2">1</td>
+        <td class="border-2">Pengendalian Gratifikasi</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">2</td>
+        <td class="border-2">Sistem Pengendalian Instansi Pemerintah (SPIP)</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">3</td>
+        <td class="border-2">Pengaduan Masyarakat</td>
+        <td class="border-2">3</td>
+        <td class="border-2">3</td>
+        <td class="border-2">9</td>
+    </tr>
+    <tr>
+        <td class="border-2">4</td>
+        <td class="border-2">Whistle Blowing System</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
+        <td class="border-2">8</td>
+    </tr>
+    <tr>
+        <td class="border-2">5</td>
+        <td class="border-2">Penanganan Benturan Kepentingan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
+    </tr>
+    <tr>
         <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2 font-bold">Kualitas Standar Pelayanan Publik</td>
         <td class="border-2"></td>
         <td class="border-2"></td>
         <td class="border-2"></td>
     </tr>
     <tr>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2">1</td>
+        <td class="border-2">Standar Pelayanan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">2</td>
+        <td class="border-2">4</td>
     </tr>
     <tr>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2">2</td>
+        <td class="border-2">Budaya Pelayanan Prima</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
     </tr>
     <tr>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
-        <td class="border-2"></td>
+        <td class="border-2">3</td>
+        <td class="border-2">Penilaian Kepuasan Terhadap Pelayanan</td>
+        <td class="border-2">2</td>
+        <td class="border-2">3</td>
+        <td class="border-2">6</td>
     </tr>
 </tbody>
 </table>
