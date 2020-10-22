@@ -2,7 +2,7 @@
 @section('content')
     <h1 class="text-center font-bold text-xl my-4 mx-4">Tabel 1. PENILAIAN RISIKO FAKULTAS EKONOMI DAN BISNIS UNIVERSITAS TANJUNGPURA TAHUN ANGGARAN TW3-TW4 2020
     </h1>
-<table class="border-collapse border-2 w-screen mx-auto my-4">
+<table class="table border-collapse border-2 w-screen mx-auto my-4">
 <thead>
     <tr>
         <th class="border-2">No.</th>
@@ -457,4 +457,10 @@
     </tr>
 </tbody>
 </table>
+@endsection
+
+@section('js')
+<script>
+    $('#penilaianRisiko').addClass('active');
+</script>
 @endsection
